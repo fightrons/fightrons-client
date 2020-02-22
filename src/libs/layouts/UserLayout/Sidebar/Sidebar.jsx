@@ -15,7 +15,7 @@ const Sidebar = props => {
 
     const logo = { //This is Temporary, we would have to send all data from components
         innerLink: "/dashboard",
-        imgSrc: require("assets/img/brand/argon-react.png"),
+        imgSrc: require("assets/img/brand/logo.png"),
         imgAlt: "..."
     }
 

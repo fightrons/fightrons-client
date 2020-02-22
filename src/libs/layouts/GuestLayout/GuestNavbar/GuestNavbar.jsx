@@ -14,7 +14,7 @@ const GuestNavbar = props => {
             >
                 <Container className="px-4">
                     <NavbarBrand to="/" tag={Link}>
-                        <img alt="..." src={require("assets/img/brand/argon-react-white.png")} />
+                        <img alt="..." src={require("assets/img/brand/logo-white.png")} />
                     </NavbarBrand>
                     <button className="navbar-toggler" id="navbar-collapse-main">
                         <span className="navbar-toggler-icon" />
@@ -26,7 +26,7 @@ const GuestNavbar = props => {
                                     <Link to="/">
                                         <img
                                             alt="..."
-                                            src={require("assets/img/brand/argon-react.png")}
+                                            src={require("assets/img/brand/logo.png")}
                                         />
                                     </Link>
                                 </Col>
