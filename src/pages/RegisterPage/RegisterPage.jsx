@@ -4,7 +4,7 @@ import { Card, CardHeader, CardBody } from 'libs/style-library/cards'
 import { Col } from 'libs/style-library/grid'
 import { Button } from 'libs/style-library/forms'
 
-import RegisterForm from 'components/RegisterForm/RegisterForm.jsx'
+import RegisterForm from 'components/forms/RegisterForm/RegisterForm.jsx'
 
 const RegisterPage = props => {
     return <>

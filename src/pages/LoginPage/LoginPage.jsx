@@ -4,7 +4,7 @@ import { Card, CardHeader, CardBody } from 'libs/style-library/cards'
 import { Row, Col } from 'libs/style-library/grid'
 import { Button } from 'libs/style-library/forms'
 
-import LoginForm from 'components/LoginForm/LoginForm.jsx'
+import LoginForm from 'components/forms/LoginForm/LoginForm.jsx'
 
 const LoginPage = props => {
     return (

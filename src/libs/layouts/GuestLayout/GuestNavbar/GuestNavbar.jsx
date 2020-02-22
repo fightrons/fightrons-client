@@ -1,16 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-    UncontrolledCollapse,
-    NavbarBrand,
-    Navbar,
-    NavItem,
-    NavLink,
-    Nav,
-    Container,
-    Row,
-    Col
-} from "reactstrap";
+
+import { UncontrolledCollapse } from "libs/style-library/collapse";
+import { NavbarBrand, Navbar, NavItem, NavLink, Nav } from 'libs/style-library/nav'
+import { Container, Row, Col } from 'libs/style-library/grid'
 
 const GuestNavbar = props => {
     return (

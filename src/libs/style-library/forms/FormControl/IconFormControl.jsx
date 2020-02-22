@@ -1,7 +1,7 @@
 import React from 'react'
 import { Input, InputGroup, InputGroupAddon, InputGroupText, FormGroup, FormFeedback } from 'reactstrap'
 
-const GuestFormControl = props => {
+const IconFormControl = props => {
     return (
         <FormGroup>
             <InputGroup className="input-group-alternative mb-3">
@@ -17,4 +17,4 @@ const GuestFormControl = props => {
     )
 }
 
-export default GuestFormControl
+export default IconFormControl

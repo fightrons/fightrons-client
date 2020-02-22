@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col } from "libs/style-library/grid";
 
 import GuestNavbar from './GuestNavbar/GuestNavbar.jsx'
 import GuestFooter from './GuestFooter/GuestFooter.jsx'

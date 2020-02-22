@@ -1,6 +1,7 @@
 import React from "react";
 
-import { NavItem, NavLink, Nav, Container, Row, Col } from "reactstrap";
+import { Container, Row, Col } from 'libs/style-library/grid'
+import { NavItem, NavLink, Nav } from "libs/style-library/nav";
 
 const GuestFooter = props => {
     return (
