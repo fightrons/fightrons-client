@@ -9,7 +9,7 @@ import LoginPage from 'pages/LoginPage/LoginPage.jsx'
 import RegisterPage from 'pages/RegisterPage/RegisterPage.jsx'
 import DashboardPage from 'pages/DashboardPage/DashboardPage.jsx'
 
-const Routes = props => (
+const Routes = (props: any) => (
     <Switch>
         <DefaultRoute path="/" exact />
         <GuestRoute path="/login" page={LoginPage} />
